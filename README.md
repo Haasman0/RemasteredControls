@@ -38,8 +38,14 @@ This can be done by holding the PlayStation button, opening official settings an
 8. [The Warriors](https://github.com/TheOfficialFloW/RemasteredControls/releases/tag/WarriorsRemastered)  
 
 9. [Tony Hawk](https://github.com/TheOfficialFloW/RemasteredControls/releases/tag/TonyHawkRemastered)  
-   Compatible with `Tony Hawk's Project 8`.
+   Compatible with `Tony Hawk's Project 8` and `Tony Hawk's Underground 2: Remix`.
+
+## Stuff needed for Compiling
+
+[psploadcore.h](https://github.com/TheOfficialFloW/Adrenaline/blob/master/cef/include/psploadcore.h) goes in pspdev/psp/include
+[systemctrl.h](https://github.com/TheOfficialFloW/Adrenaline/blob/master/cef/include/systemctrl.h) goes in pspdev/psp/include
+[libpspsystemctrl_kernel.a](https://github.com/TheOfficialFloW/Adrenaline/blob/master/cef/lib/libpspsystemctrl_kernel.a) goes in pspdev/psp/lib
 
 ## Support
 
-Support me on [patreon](https://www.patreon.com/TheOfficialFloW) for more content
+Support TheOfficialFloW on [patreon](https://www.patreon.com/TheOfficialFloW) for more content

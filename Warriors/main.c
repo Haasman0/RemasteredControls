@@ -22,6 +22,7 @@
 #include <stdio.h>
 #include <string.h>
 
+#include <psploadcore.h>
 #include <systemctrl.h>
 
 PSP_MODULE_INFO("WarriorsRemastered", 0x1007, 1, 0);

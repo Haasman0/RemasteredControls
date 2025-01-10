@@ -24,6 +24,7 @@
 #include <string.h>
 #include <math.h>
 
+#include <psploadcore.h>
 #include <systemctrl.h>
 
 PSP_MODULE_INFO("SplinterCellRemastered", 0x1007, 1, 0);

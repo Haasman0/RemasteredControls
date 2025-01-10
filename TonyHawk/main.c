@@ -23,6 +23,7 @@
 #include <stdio.h>
 #include <string.h>
 
+#include <psploadcore.h>
 #include <systemctrl.h>
 
 PSP_MODULE_INFO("TonyHawkRemastered", 0x1007, 1, 0);
@@ -66,7 +67,7 @@ int OnModuleStart(SceModule2 *mod) {
         _sw(0, addr + 0x14);
         break;
       }
-/*
+
       // Tony Hawk's Underground 2: Remix
       if (_lw(addr) == 0xA204001C && _lw(addr + 0x04) == 0x93A40019) {
         _sw(0x26040018, addr + 0x00); // addiu $a0, $s0, 24
@@ -76,7 +77,7 @@ int OnModuleStart(SceModule2 *mod) {
         _sw(0, addr + 0x10);
         break;
       }
-*/
+
     }
 
     sceKernelDcacheWritebackAll();
