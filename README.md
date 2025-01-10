@@ -43,7 +43,9 @@ This can be done by holding the PlayStation button, opening official settings an
 ## Stuff needed for Compiling
 
 [psploadcore.h](https://github.com/TheOfficialFloW/Adrenaline/blob/master/cef/include/psploadcore.h) goes in pspdev/psp/include
+
 [systemctrl.h](https://github.com/TheOfficialFloW/Adrenaline/blob/master/cef/include/systemctrl.h) goes in pspdev/psp/include
+
 [libpspsystemctrl_kernel.a](https://github.com/TheOfficialFloW/Adrenaline/blob/master/cef/lib/libpspsystemctrl_kernel.a) goes in pspdev/psp/lib
 
 ## Support
